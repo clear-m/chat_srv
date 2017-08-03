@@ -11,7 +11,7 @@ Also - boost is required - http://brewformulas.org/Boost .
 # Run
 Build binary (look at project/chat_srv/Build/Debug )
 Run with port argument:
-./chat_srv 65536
+./chat_srv 65535
 
 # Test
-telnet 127.0.0.1 65536
+telnet 127.0.0.1 65535
